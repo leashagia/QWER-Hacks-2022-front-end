@@ -13,4 +13,25 @@
     text-align: center;
     width: fit-content;
     place-content: middle;
+    margin: 40px;
 }
+
+.header1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    padding: 14px 16px;
+    background-color: hsl(0, 100%, 96%);
+    margin: 0px;
+/*now for text stuff*/
+    font-style:oblique;
+    font-family:cursive;
+    
+}
+/*
+.link{
+    color:turquoise
+}
+*/
+
