@@ -2,18 +2,24 @@
     background-color: green;
     color: red;
 }
+
+body{
+    background-color: rgb(241, 220, 241);
+}
+
 .message {
-    background-color: rgb(245, 173, 173);
+    background-color: rgb(245, 184, 184);
     padding: 15px;
-    box-shadow: 5px 5px 5px 1px rgba(233, 227, 227, 0.692);
+    box-shadow: 5px 5px 5px 1px rgba(255, 183, 183, 0.692);
     position: relative;
     font-weight: bold;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:monospace;
     text-align: center;
     width: fit-content;
     place-content: middle;
     margin: 40px;
+    border-radius: 0px;
 }
 
 .header1{
@@ -22,11 +28,13 @@
     padding: 0px;
     display: inline;
     padding: 14px 16px;
-    background-color: hsl(0, 100%, 96%);
+    background-color: hsl(0, 50%, 91%);
     margin: 0px;
 /*now for text stuff*/
     font-style:oblique;
-    font-family:cursive;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
     
 }
 /*
@@ -34,4 +42,11 @@
     color:turquoise
 }
 */
-
+li a:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a {
+    text-decoration: none;
+}
